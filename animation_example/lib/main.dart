@@ -44,6 +44,7 @@ class _DraggableCardState extends State<DraggableCard>
   late AnimationController _animationController;
   late Animation<Alignment> _animationAlignment;
   Alignment _dragAlignment = Alignment.center;
+  
   @override
   void initState() {
     super.initState();
